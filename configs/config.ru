@@ -6,7 +6,7 @@ require 'sinatra'
 
 # we need to manually specify where our views live
 views_path = File.join(File.dirname(__FILE__), 'views') 
-Sinatra::Application.default_options.merge!( 
+Sinatra::Base.set( 
   :views => views_path, 
   :run => false, 
   :env => :production 
@@ -14,4 +14,4 @@ Sinatra::Application.default_options.merge!(
 
 # then load and run the application
 load 'app.rb'
-run Sinatra.application
+run Sinatra::Application
