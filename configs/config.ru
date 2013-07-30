@@ -5,12 +5,11 @@ require 'rubygems'
 require 'sinatra'
 
 # we need to manually specify where our views live
-views_path = File.join(Dir.pwd, 'views') 
-Sinatra::Base.set( 
-  :views => views_path, 
-  :run => false, 
-  :env => :production 
-) 
+set :views, File.join(Dir.pwd, 'views') 
+
+set :environment, :production
+
+disable :run, :reload
 
 # then load and run the application
 load 'app.rb'
