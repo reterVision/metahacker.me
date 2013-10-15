@@ -1,0 +1,26 @@
+#avatar-block {
+  position: relative;
+}
+
+#avatar {
+  width: 200px;
+  position: absolute;
+  left: 0px;
+}
+
+#avatar-info {
+  width: 300px;
+  position: absolute;
+  top: 30px;
+  left: 235px;
+}       
+
+#self-introduction {
+  position: absolute;
+  top: 235px;
+}
+
+#self-introduction-cn {
+  position: absolute;
+  top: 335px;
+}
