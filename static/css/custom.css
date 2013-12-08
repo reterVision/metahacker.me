@@ -1,36 +1,4 @@
-#avatar-block {
-  position: relative;
-}
-
-#avatar {
-  width: 200px;
-  position: absolute;
-  left: 0px;
-}
-
-#avatar-info {
-  width: 300px;
-  position: absolute;
-  top: 30px;
-  left: 235px;
-}       
-
-#self-introduction {
-  position: absolute;
-  top: 355px;
-  width: 672px;
-}
-
-#self-introduction-cn {
-  position: absolute;
-  top: 465px;
-  width: 672px;
-}
-
 #footer {
-  position: absolute;
-  top: 600px;
-  width: 672px;
   text-align: right;
   font-size: 0.5em;
 }

@@ -9,25 +9,29 @@
     <h1>META HACKER</h1>
     <hr>
     <div id="avatar-block">
-      <div id="avatar">
-        <img src="http://en.gravatar.com/userimage/29356131/58714fe20aec9e667e6bd86f0fb700d0.jpg?size=200">
-      </div>
-      <div id="avatar-info">
-        <ul>
-          <li>
-          <a href="http://www.brandsfever.com"> Python Programmer </a>
-          </li>
-          <li>
-          <a href="https://www.github.com/reterVision"> Githuber </a>
-          </li>
-          <li>
-          <a href="http://goo.gl/qY3clP"> iOS Developer </a>
-          </li>
-          <li>
-          <a href="http://reterwebber.wordpress.com/"> Blogger </a>
-          </li>
-        </ul>
-      </div>
+      <table id="avatar">
+        <tr>
+          <td>
+            <img src="http://en.gravatar.com/userimage/29356131/58714fe20aec9e667e6bd86f0fb700d0.jpg?size=200">
+          </td>
+          <td id="avatar-info">
+            <ul>
+              <li>
+              <a href="http://www.brandsfever.com"> Python Programmer </a>
+              </li>
+              <li>
+              <a href="https://www.github.com/reterVision"> Githuber </a>
+              </li>
+              <li>
+              <a href="http://goo.gl/qY3clP"> iOS Developer </a>
+              </li>
+              <li>
+              <a href="http://reterwebber.wordpress.com/"> Blogger </a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
     </div>
     <div id="self-introduction">
       <p>I am a web developer currently based in Singapore. I am interested in various kinds of web technologies, including but not limited to Python, Django, Redis, MongoDB, Lua, Haskell, etc.</p>
