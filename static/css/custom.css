@@ -17,10 +17,25 @@
 
 #self-introduction {
   position: absolute;
-  top: 235px;
+  top: 355px;
+  width: 672px;
 }
 
 #self-introduction-cn {
   position: absolute;
-  top: 335px;
+  top: 465px;
+  width: 672px;
+}
+
+#footer {
+  position: absolute;
+  top: 600px;
+  width: 672px;
+  text-align: right;
+  font-size: 0.5em;
+}
+
+.left {
+  float: left;
+  margin: 0px 2px 0px 2px;
 }
