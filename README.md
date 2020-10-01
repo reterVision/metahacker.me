@@ -1,6 +1,6 @@
 MetaHacker.Me
 =========
 
-My personal website.
+My personal website
 
 http://www.metahacker.me
